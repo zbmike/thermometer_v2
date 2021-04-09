@@ -1,4 +1,4 @@
-# thermometer_v1
+# thermometer_v2
 Built a digital thermometer with Raspberry Pi 4, DHT11 sensor and a 16x2 lcd as Practise of Python
 
 Oof, hardware wiring is harder than expected.
