@@ -7,7 +7,7 @@ from RPi import GPIO
 
 dhtDevice = adafruit_dht.DHT11(board.D4)
 lcd = CharLCD(cols=16, rows=2, pin_rs=22, pin_e=23, pins_data=[9, 25, 11, 8],
-              numbering_mode=GPIO.BCM)
+              numbering_mode=GPIO.BCM, compat_mode=True)
 
 while True:
     try:
